@@ -59,3 +59,85 @@ img{
     color: black;
     text-align: center;
 }
+/* ********************Responsive********************** */ 
+@media (max-width: 600px){
+    .backgroundQR{
+        display: flex;
+        display: flex;
+        grid: auto auto / auto auto auto auto;
+        grid-gap: 10px;
+        background-color: #bccef8fa;
+        /* padding: 1px; */
+        margin: 5em 2em;
+        box-shadow: 6px 9px 6px 6px rgba(0, 0, 0, 0.202);
+    }
+    .attribution{
+        display:block; 
+        font-size: 0.3em;
+         text-align: center; 
+    }
+    .attribution a{
+        color: hsl(228, 45%, 44%); 
+    }
+    .attribution h1{
+        font-weight: 700;
+        word-break: keep-all;
+        word-spacing: 1.3px;
+        line-height: 1.5em;
+        line-break: strict;
+        padding: 2px 9px;
+    }
+    .attribution p{
+        color: rgba(0, 0, 0, 0.454);
+        line-height: 1.5em;
+        font-weight: 600;
+        padding: 0 18px;
+        line-break: strict;
+        font-size: 1.5em;
+    }
+    .qrCode{
+    
+        /* margin:1em 1em 1em 1em; */
+        border-radius: 5%;
+        max-height: 20em;
+        background-color: aliceblue;
+        max-width: 10em;
+        text-align: center; 
+        padding: 10px 12px; 
+        margin: 6em 3em;
+    }
+    img{
+        border-radius: 5%;
+        max-width: 9em;
+    }
+
+    @media (min-width: 850px){
+
+        .backgroundQR{
+            display: flex;
+            display: flex;
+            grid: auto auto / auto auto auto auto;
+            grid-gap: 10px;
+            background-color: black;
+            /* padding: 1px; */
+            margin: 5em 2em;
+            box-shadow: 6px 9px 6px 6px rgba(0, 0, 0, 0.202);
+        }
+        .qrCode{
+    
+            /* margin:1em 1em 1em 1em; */
+            border-radius: 5%;
+            max-height: 20em;
+            background-color: aliceblue;
+            max-width: 10em;
+            text-align: center; 
+            padding: 10px 12px; 
+            margin: 6em 3em;
+        }
+    }
+    /* **********************Footer***************************** */
+    .footer{
+        color: black;
+        text-align: center;
+    }
+}
